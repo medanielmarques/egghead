@@ -5,8 +5,14 @@
   "type": "module",
   "scripts": {
     "build": "next build",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:seed": "tsx server/prisma/seed.ts",
+    "db:studio": "prisma studio",
+    "db:studio-no-browser": "prisma studio --browser none",
     "dev": "next dev",
     "lint": "next lint",
+    "postinstall": "pnpm db:push",
     "start": "next start"
   },
   "dependencies": {
