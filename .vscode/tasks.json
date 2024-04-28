@@ -9,23 +9,23 @@
   },
   "tasks": [
     {
-      "label": "Launch Toki Development terminals",
-      "dependsOn": ["toki-app", "docker-postgres", "prisma-studio"],
+      "label": "Launch [APP NAME] Development terminals",
+      "dependsOn": ["name-app", "docker-postgres", "prisma-studio"],
       "group": {
         "kind": "build",
         "isDefault": true
       }
     },
     {
-      "label": "Launch Toki Development terminals without Docker",
-      "dependsOn": ["toki-app", "prisma-studio"],
+      "label": "Launch [APP NAME] Development terminals without Docker",
+      "dependsOn": ["name-app", "prisma-studio"],
       "group": {
         "kind": "test",
         "isDefault": true
       }
     },
     {
-      "label": "toki-app",
+      "label": "name-app",
       "type": "shell",
       "command": "pnpm dev",
       "isBackground": false,
