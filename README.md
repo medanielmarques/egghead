@@ -40,7 +40,7 @@ pnpm create t3-app@latest
 ### Install the dependencies
 
 ```bash
-pnpm add zustand @phosphor-icons/react @supabase/auth-helpers-nextjs @supabase/auth-helpers-react kysely kysely-neon nanoid tailwindcss-animate posthog-js pg ws framer-motion clsx tailwind-merge @radix-ui/react-icons && pnpm add -D @trivago/prettier-plugin-sort-imports autoprefixer @types/pg @types/ws prettier-plugin-tailwindcss prisma prisma-kysely
+pnpm add zustand @phosphor-icons/react @supabase/auth-helpers-nextjs @supabase/auth-helpers-react kysely kysely-neon nanoid class-variance-authority tailwindcss-animate posthog-js pg ws framer-motion clsx tailwind-merge @radix-ui/react-icons && pnpm add -D @trivago/prettier-plugin-sort-imports autoprefixer @types/pg @types/ws prettier-plugin-tailwindcss prisma prisma-kysely
 ```
 
 ### Create or Replace all the files in the new generated app with the files here
